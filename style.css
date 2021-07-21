@@ -22,3 +22,39 @@
 .quick-contact__method_facebook {
   float: right;
 }
+
+
+.main-header {
+    max-width: 1200px;
+    background: rgb(179, 230, 179);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.main-header__logo {
+
+}
+.main-nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+.main-nav__item {
+    display: block;
+}
+.main-nav__link {
+    text-decoration: none;
+    padding: 5px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-nav__link:hover {
+    color: #000;
+}
+.main-nav__sublist {
+    display: none;
+}
