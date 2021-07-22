@@ -1,5 +1,10 @@
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .quick-contact {
   background: rgb(5, 170, 235);
@@ -25,8 +30,7 @@
 
 
 .main-header {
-    max-width: 1200px;
-    background: rgb(179, 230, 179);
+
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +44,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
+
 }
 .main-nav__item {
     display: block;
@@ -48,13 +52,33 @@
 .main-nav__link {
     text-decoration: none;
     padding: 5px 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0px 0px 9px #000000;
 }
 .main-nav__link:hover {
-    color: #000;
+    color: rgb(80, 80, 80);
 }
 .main-nav__sublist {
     display: none;
+}
+
+.slider {
+    background:linear-gradient( rgba(216, 216, 216, 0.5), rgba(82, 82, 82, 0.5) ), url('https://przedsiebiorczepodlasie.pl/wp-content/uploads/2017/08/sprz%C4%85taczka-fotolia-886x590.jpg');
+    min-height: 400px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.slider__title {
+    color: #fff;
+    font-size: 50px;text-shadow: 0px 0px 9px #000000;
+}
+.slider__title_special {
+    color: rgb(32, 173, 255);
+    
+}
+.slider__paragraph {
+    color: #fff;
 }
